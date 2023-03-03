@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: integration-suite-test-component-git-source-xpcw
     spec:
       containers:
-      - image: quay.io/dheerajodha/test-images:b0c577e07f594ed89c4491753ea63084
+      - image: quay.io/dheerajodha/test-images@sha256:db13131f3a74802f7d135d015ce159ccbe2915a196d67a42baba8b4d12978ff7
         name: my-python
         ports:
         - containerPort: 8081
